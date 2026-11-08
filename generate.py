@@ -1,7 +1,7 @@
 from mlx_lm import generate, load
 
-path = 
-model, tokenizer = load(path_or_hf_repo=path)
+repo = 'mlx-community/Qwen1.5-0.5B-Chat'
+model, tokenizer = load(path_or_hf_repo=repo)
 
 prompt = "Why is the sky blue?"
 conversation = [{"role": "user", "content": prompt}]
