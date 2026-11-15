@@ -10,7 +10,7 @@ prompt = tokenizer.apply_chat_template(
     add_generation_prompt=True,
 )
 
-max_tokens = 1_000
+max_tokens = 1000
 verbose = True
 
 response = generate(
