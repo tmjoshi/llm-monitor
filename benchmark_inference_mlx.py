@@ -4,7 +4,7 @@ from .qwen2 import ModelArgs
 # TODO: i want the right qwen ModelArgs to be set, then the model called, metrics logged
 
 def benchmark_inference_mlx(batch_size):
-    model = '/Users/tejas/projects/llm-monitor/qwen2.py'
+    model = '/Users/tejas/projects/llm-monitor/qwen2.py' # generate does not take filepath, but model object
     prompt = 'What makes the sun red and warm?'
     input_len, output_len = 256, 32
     
